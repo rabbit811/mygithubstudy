@@ -1,0 +1,59 @@
+﻿How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    可以快速找出问题然后修改 可以节约很多时间，方便。
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    编程过程中我们会对代码不断的进行修改 在修改过程中难免会出现新的错误 如果可以访问历史记录的话就可以很快修正错误
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    
+手动提交的优点是避免我们很长时间忘记提交，缺点是可能会保存过于频繁或者错过一些重要的提交。手动提交的优点是每次提交都是在合适的时机 缺点是 有时可能会忘记。
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    
+在一次提交中保存多个文件可以更容易查看有关联的文件的修改 但保存量可能会比较大 没有修改也会被保存  
+单独对待单个文件的话 只有在有逻辑改动时会被保存 但是要查找关联文件的修改时会比较麻烦
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+   
+ 找到文件夹然后运行git log  会显示所有的commit内容 找到需要查看的文件 再运行git diff commidID
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    
+
+更改之前先保存更改前的版本 并备注说明  如果更改导致了破环 可以使用git checkout 恢复到以前的版本。
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    
+保存文件历史版本 出现问题时查找问题的根源。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b0678b161fcf74467ed3a63110557e3d6229cfa6
+$ git config --global core.editor "'D:/Program Files/Sublime\ Text\ 3/sublime_text.exe' -n -w"
