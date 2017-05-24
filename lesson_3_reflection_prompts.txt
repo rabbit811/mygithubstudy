@@ -28,10 +28,13 @@ stored locally?
    Fill in your answer here
 
 How would you collaborate without using Git or GitHub? 
+不使用Git或者GitHub的情况下实现协同工作只能每次更新后都做记录 然后再互相对比
  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+ 
+使用GitHub更简单。   
+Fill in your answer here
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
