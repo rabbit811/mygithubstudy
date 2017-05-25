@@ -37,6 +37,10 @@ and what would be harder?
 Fill in your answer here
 
 When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+master? 
 
-    Fill in your answer here
+当想要进行一些尝试性的修改时 会选择独立的分支进行 这样不会影响主分支。
+ What benefits does each approach have?
+
+  
+独立分支修改 如果出错 不会影响主分支 。直接在主分支修改的话会比较方便简单。 
